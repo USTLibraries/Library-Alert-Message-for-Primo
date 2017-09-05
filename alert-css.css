@@ -2,12 +2,14 @@
 
 /*  ============================================================================================
     ********************************************************************************************
-        LIBRARY ALERT
+        LIBRARY ALERT MESSAGE FOR PRIMO
     ********************************************************************************************
 */
-/* Allow an alert to be displayed */
+/* UST LIBRARY ALERT
+   ADDED: 8/29/2017 - clk
+   Allow an alert to be displayed */
 
-div.ust-library-alert {
+div.library-alert-message {
 	width: 100%;
 	display: block;
     border: 1px solid red;
@@ -15,7 +17,7 @@ div.ust-library-alert {
 	color: white;
 }
 
-div.ust-library-alert div {
+div.library-alert-message div {
 	width: 100%;
 	max-width: 850px;
 	margin-right: auto;
@@ -23,35 +25,52 @@ div.ust-library-alert div {
 	padding: 10px 10px 10px 10px;
 }
 
-div.ust-library-alert a {
+div.library-alert-message a {
 	text-decoration: underline;
 	font-weight: bold;
 }
 
-div.ust-library-alert.help,
-div.ust-library-alert.informational {
+/* Accessibility: text and background colors have a contrast ratio that passes AAA for any size text */
+/* blue: help/informational*/
+div.library-alert-message.blue-help-informational {
 	color: #004785;
 	background-color: #BDE5F8;
 	border-color: #004785;
 }
 
-div.ust-library-alert.normal,
-div.ust-library-alert.success {
+div.library-alert-message.blue-help-informational a {
+	color: #004785;
+}
+
+/* green: success/normal */
+div.library-alert-message.green-success-normal {
 	color: #005C00;
 	background-color: #DFF2BF;
 	border-color: #005C00;
 }
 
-div.ust-library-alert.advisory,
-div.ust-library-alert.warning {
+div.library-alert-message.green-success-normal a {
+	color: #005C00;
+}
+
+/* yellow: advisory/warning */
+div.library-alert-message.yellow-advisory-warning {
 	color: #754500;
 	background-color: #FEEFB3;
 	border-color: #754500;
 }
 
-div.ust-library-alert.critical,
-div.ust-library-alert.error {
+div.library-alert-message.yellow-advisory-warning a {
+	color: #754500;
+}
+
+/* red: critical/error */
+div.library-alert-message.red-critical-error {
 	color: #650000;
 	background-color: #FFBBBB;
 	border-color: #650000;
+}
+
+div.library-alert-message.red-critical-error a {
+	color: #650000;
 }
