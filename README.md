@@ -8,7 +8,7 @@ Displays a library alert message across Primo below the search bar
 2. Add the CSS to your custom1.js file
 3. Set the message using the libraryAlertMessage() function
 
-## To Use/Set Alert:
+## Usage/Set Alert
 
 As needed set line libraryAlertMessage(""); to your message. HTML is okay. The default color is Red (Critical/Error) but you can preceed the message with a different color:
 
@@ -24,6 +24,6 @@ As needed set line libraryAlertMessage(""); to your message. HTML is okay. The d
 	
 Default is red/critical so pre-pending with \[red\] is not necessary.
 
-## Accessibility Note:
+## Accessibility Note
 
 The colors used pass the contrast ratio for AAA for all text sizes
