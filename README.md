@@ -1,5 +1,6 @@
 # Library-Alert-Message-for-Primo
-Displays a library alert message across Primo
+
+Displays a library alert message across Primo below the search bar
 
 ## Installation
 
