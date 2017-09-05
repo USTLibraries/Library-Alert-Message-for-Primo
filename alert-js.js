@@ -54,7 +54,7 @@
 		libraryAlertMessage("[green]Your normal/success message goes here");
 		libraryAlertMessage("[yellow]Your advisory/warning message goes here <a href='somepage.html'>More info</a>");
 		libraryAlertMessage("[red]Your critical/error message goes here");
-		
+		 
 		Default is red/critical so pre-pending with [red] is not necessary.
 	*/
  
