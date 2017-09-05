@@ -23,3 +23,7 @@ As needed set line libraryAlertMessage(""); to your message. HTML is okay. The d
     libraryAlertMessage("[red]Your critical/error message goes here");
 	
 Default is red/critical so pre-pending with \[red\] is not necessary.
+
+## Accessibility Note:
+
+The colors used pass the contrast ratio for AAA for all text sizes
